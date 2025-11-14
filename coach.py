@@ -43,4 +43,4 @@ def ensure_csv():
             w.writerow(["date","area","task_title","task_description","time_minutes","goal_size",
                         "difficulty","status","notes","score","actual_minutes"])
 
-def call_openai_fallback(area)
+def call_openai_fallback(area) :
